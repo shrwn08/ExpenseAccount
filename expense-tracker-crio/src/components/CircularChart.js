@@ -61,7 +61,7 @@ const CircularChart = ({ data }) => {
   return (
     <>
       <ResponsiveContainer width="80%" height="80%" className="pie-chart-box">
-        <PieChart>
+        <PieChart width={400} height={400}>
           <Pie
             data={ChartData}
             cx="50%"
