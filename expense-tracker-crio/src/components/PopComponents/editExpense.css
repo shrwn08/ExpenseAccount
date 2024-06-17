@@ -1,0 +1,91 @@
+.edit-expense {
+    position: fixed;
+    top: 0;
+    left: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-exp-heading-input {
+  width: 538px;
+  height: 335px;
+  border-radius: 15px;
+  background-color: rgba(239, 239, 239, 0.85);
+}
+.edit-expense-heading {
+  width: 201px;
+  height: 34px;
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 700;
+
+  margin-left: 32px;
+}
+.edit-exp-inputs {
+  margin-left: 32px;
+  width: 460px;
+  height: 198px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 10px;
+
+}
+.edit-exp-title {
+    width: 205px;
+    height: 49px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+  }
+  .edit-exp-price {
+    width: 205px;
+    height: 49px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+  }
+  .edit-exp-category {
+    width: 205px;
+    height: 49px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+  }
+  .edit-exp-date {
+    width: 205px;
+    height: 49px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+  }
+  .edit-add-expense-btn {
+    width: 223px;
+    height: 51px;
+    border-radius: 15px;
+    background-color: rgba(244, 187, 74, 1);
+    color: #ffff;
+    font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  }
+  .edit-cancel-expense-btn{
+      width: 112px;
+  height: 51px;
+  border-radius: 15px;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  background-color: rgba(217, 217, 217, 1);
+  }
+  

@@ -1,0 +1,11 @@
+.bar-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px; /* Height of the original chart */
+  height: 100%; /* Adjust as necessary */
+  overflow: hidden;
+}
+.y-axis{
+    margin-left: 50px;
+}

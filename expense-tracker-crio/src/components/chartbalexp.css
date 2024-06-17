@@ -1,0 +1,95 @@
+.ChartBalExp {
+  width: 96.4%;
+  height: 34.44%;
+  margin: 0px 32px;
+  background-color: #626262;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bal-exp {
+  width: 62.75%;
+  height: 181px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bal {
+  width: 46.75%;
+  height: 181px;
+  background-color: #9b9b9b;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bal-text {
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffff;
+}
+.bal-amount {
+  color: #9dff5b;
+}
+.bal-btn {
+  width: 167.65px;
+  height: 38px;
+  border-radius: 15px;
+cursor: pointer;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #9dff5b;
+  color: #ffff;
+  border: none;
+}
+.exp {
+  width: 46.75%;
+  height: 181px;
+  background-color: #9b9b9b;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.exp-text {
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffff;
+}
+.exp-amount {
+  color: #f4bb4a;
+}
+.exp-btn {
+  width: 167.65px;
+  height: 38px;
+  border-radius: 15px;
+    cursor: pointer;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff9595 0%, #ff4747 80%, #ff3838 100%);
+
+  color: #ffff;
+  border: none;
+}
+
+.chart {
+  width: 199px;
+  height: 199px;
+  top: 118px;
+  margin-right: 90px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

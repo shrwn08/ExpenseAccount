@@ -1,0 +1,47 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #3b3b3b;
+  
+}
+
+.App-name {
+  font-family: "Ubuntu";
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  margin: 3px 0 0px 32px;
+}
+
+.recent-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.recent-transactions {
+  width: 261px;
+  height: 32px;
+  margin-left: 32px;
+  font-family: "Ubuntu";
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: #ffff;
+  margin-bottom: 0;
+}
+.top-expenses {
+  width: 175px;
+  height: 32px;
+  font-family: "Ubuntu";
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  margin-right: 25.3%;
+  color: #ffff;
+  margin-bottom: 0;
+}

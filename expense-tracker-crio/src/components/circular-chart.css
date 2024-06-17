@@ -1,0 +1,26 @@
+.pie-chart-box{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.legend {
+    display: flex;
+    
+    margin-top: 10px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .color-box {
+    margin-left: 2px;
+    width: 10px;
+    height: 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  .text{margin: 0;
+    font-size: 10px;
+  }

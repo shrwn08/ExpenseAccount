@@ -1,0 +1,67 @@
+.income-container {
+    position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.add-income {
+  height: 164px;
+  width: 538px;
+  border-radius: 15px;
+  background-color: rgba(239, 239, 239, 0.85);
+}
+.income-heading {
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 32px;
+}
+.income-input-container {
+  height: auto;
+  width: auto;
+  display: flex;
+  gap: 10px;
+  margin-left: 32px;
+
+}
+.add-income-input {
+  width: 192px;
+  height: 46px;
+
+  border-radius: 15px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.add-income-btn {
+  width: 145px;
+  height: 51px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgba(244, 187, 74, 1);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffff;
+  cursor: pointer;
+}
+.cancel-income-btn {
+  width: 112px;
+  height: 51px;
+  border-radius: 15px;
+  font-family: 'Open Sans';
+font-size: 16px;
+font-weight: 400;
+background-color: rgba(217, 217, 217, 1);
+cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.trasns-exp{
+    margin-top: 0px;
+    width: 94.35%;
+    height: 46.17%;
+    margin-left: 32px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.transaction-chart{
+    width: 62.35%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #ffff;
+
+}
+.expense-chart{
+    width: 35.18%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #ffff;
+}
