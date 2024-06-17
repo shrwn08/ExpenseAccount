@@ -8,8 +8,7 @@ import "./transaction-history.css";
 import Delete from "../asset/delete-icon.png";
 import Edit from "../asset/edit-icon.png";
 
-const TransactionHistory = ({ expRecord, onClick,handleDeleteHistory}) => {
-  
+const TransactionHistory = ({ expRecord, onClick, handleDeleteHistory }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 3;
 
@@ -17,12 +16,9 @@ const TransactionHistory = ({ expRecord, onClick,handleDeleteHistory}) => {
     setCurrentPage(value);
   };
 
-  
-
-  // const handleUpdateHistory = (index) => {
-  //   const updatedExpRecord = expRecord.filter((_, i) => i !== index);
-  //   onClick(updatedExpRecord);
-  // };
+  const handleEditClick = (index) => {
+    onClick(index);
+  };
 
   const paginatedItems = expRecord.slice(
     (currentPage - 1) * itemsPerPage,
@@ -48,7 +44,10 @@ const TransactionHistory = ({ expRecord, onClick,handleDeleteHistory}) => {
             >
               <img className="delete-image" src={Delete} alt="delete" />
             </button>
-            <button className="edit-button" onClick={() => onClick((currentPage - 1) * itemsPerPage + index)}>
+            <button
+              className="edit-button"
+              onClick={() => handleEditClick(index)}
+            >
               <img className="edit-image" src={Edit} alt="edit" />
             </button>
           </div>

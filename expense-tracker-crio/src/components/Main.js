@@ -24,14 +24,18 @@ const Main = ({
         wallet={wallet}
         addExpense={addExpense}
         expAmount={expAmount}
-        // expRecord={expRecord}
         catePriceData={catePriceData}
       />
       <div className="recent-top">
         <p className="recent-transactions">Recent Transactions</p>
         <p className="top-expenses">Top Expenses</p>
       </div>
-      <TransactionExpense expRecord={expRecord} data={catePriceData} onClick={openingEditExpense} handleDeleteHistory={handleDeleteHistory}/>
+      <TransactionExpense
+        expRecord={expRecord}
+        data={catePriceData}
+        onClick={openingEditExpense}
+        handleDeleteHistory={handleDeleteHistory}
+      />
     </div>
   );
 };

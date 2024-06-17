@@ -84,7 +84,9 @@ function App() {
     setPopUpAddExpense(false);
   };
 
-  const handleAddEditExpenseClick = () => {
+  const handleAddEditExpenseClick = (index) => {
+    setEditExpenseRecord(expensesData[index]);
+    setEditIndex(index);
     setPopUpEditExpense(true);
   };
 
@@ -94,7 +96,7 @@ function App() {
     setEditIndex(null);
   };
 
-  //delete transaction history
+  // Delete transaction history
   const handleDeleteHistory = (index) => {
     const updatedExpensesData = expensesData.filter((_, i) => i !== index);
     setExpensesData(updatedExpensesData);
@@ -107,6 +109,7 @@ function App() {
     setExpAmount((prevExp) => prevExp - deletedExpense.priceInput);
   };
 
+  // Update expense record
   const handleUpdateExpense = (updatedExpense) => {
     const updatedExpensesData = expensesData.map((expense, index) =>
       index === editIndex ? updatedExpense : expense
@@ -115,10 +118,7 @@ function App() {
 
     const updatedCatePriceData = catePriceData.map((data, index) =>
       index === editIndex
-        ? {
-            category: updatedExpense.category,
-            price: updatedExpense.priceInput,
-          }
+        ? { category: updatedExpense.category, price: updatedExpense.priceInput }
         : data
     );
     setCatePriceData(updatedCatePriceData);
@@ -139,7 +139,6 @@ function App() {
         addExpense={handleAddExpenseClick}
         addIncome={handleAddIncomeClick}
         wallet={amountInwallet}
-        // balanceBtn={balanceBtn}
         expAmount={expAmount}
         expRecord={expensesData}
         catePriceData={catePriceData}

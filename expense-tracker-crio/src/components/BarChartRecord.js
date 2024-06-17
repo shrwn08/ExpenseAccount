@@ -34,7 +34,7 @@ const BarChartRecord = ({ data }) => {
 
   return (
     <div className="bar-chart">
-      <ResponsiveContainer width="110%" height={300}>
+      <ResponsiveContainer width="100%" height={300}>
         <BarChart layout="vertical" 
         data={ChartData}>
         
